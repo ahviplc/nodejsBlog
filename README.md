@@ -16,6 +16,17 @@
 
 1:使用了MongoDB数据库【127.0.0.1:27017】,具体使用请google！
 
+Mongodb在windows下的安装和启动 - 青葱岁月 - ITeye博客
+https://www.iteye.com/blog/chenzhou123520-1582174
+
+> PS E:\mongodb-win32-x86_64-2012plus-4.2.0-rc2\bin> .\mongod.exe --dbpath E:\mongodb-win32-x86_64-2012plus-4.2.0-rc2\data
+
+用上面的的命令启动起来之后,使用MongoDB客户端
+Robo 3T | Free, open-source MongoDB GUI (formerly Robomongo)
+> https://robomongo.org/ 
+ 
+用ip为127.0.0.1端口为27017即可连接.
+
 2:blog数据库文件备份在：public/MongoDBKu
 
 ### Idea启动配置Nodejs项目：
@@ -23,6 +34,9 @@
 1:Idea启动配置Nodejs项目图片在:public/picKu;
 
 2:node app.js
+
+3:访问博客:
+> http://localhost:8081/
 
 **欢迎来到 [LC博客-一加壹博客最Top](http://www.oneplusone.vip)**
 
